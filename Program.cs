@@ -33,6 +33,7 @@ namespace ClassProject2_IterativeStatement
                 else
                 {
                     Console.WriteLine("Please, restart the console and enter a valid integer");
+                    Console.ReadKey(true);
                 }
             }
             catch
